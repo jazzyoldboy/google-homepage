@@ -1,0 +1,51 @@
+
+#nav_left {
+    position: fixed;
+    top: 10px;
+    left: 5;
+}
+
+#nav_right {
+    position: fixed;
+    top: 10px;
+    right: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#search_input {
+    border-radius: 10px;
+    width: 550px;
+    height: 30px;
+}
+
+#submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
